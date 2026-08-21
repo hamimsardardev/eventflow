@@ -13,7 +13,7 @@ const NavbarData = {
     {
       id: 3,
       title: "My Registrations",
-      url: "/my-registrations",
+      url: "/my-registration",
     },
   ],
 };

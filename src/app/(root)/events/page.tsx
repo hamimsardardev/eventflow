@@ -3,7 +3,9 @@ import page from '../page'
 
 const Events = () => {
   return (
-    <div>Events</div>
+    <div>
+      <h1>this is the Events page</h1>
+    </div>
   )
 }
 

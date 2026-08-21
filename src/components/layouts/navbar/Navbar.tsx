@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import Logo from "./Logo";
 import Container from "../Container";
@@ -13,15 +15,15 @@ const Navbar = () => {
           <Container>
             <div className="flex items-center justify-between">
               <Logo />
-              <ul className="flex items-center gap-4 text-sm font-medium text-primary">
+              <ul className="flex items-center gap-4 text-sm font-medium text-secondary font-space-grotesk">
                 {NavbarData.navlist?.map((item, index) => {
                   return (
                     <li
                       className={cn(
-                        "rounded-lg px-3 py-2 text-sm font-medium transition",
+                        "rounded-lg px-3 py-2 text-sm font-medium transition font-space-grotesk",
                         pathname === item.url
-                          ? "bg-brand-50 text-brand-700"
-                          : "text-gray-600 hover:bg-surface-100 hover:text-gray-900",
+                          ? "bg-tertiary text-secondery font-space-grotesk"
+                          : "text-secondery hover:text-[#B6F06E] font-space-grotesk",
                       )}
                       key={index}
                     >
