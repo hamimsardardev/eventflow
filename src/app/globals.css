@@ -8,7 +8,7 @@
   --primary: oklch(0.205 0 0);
   --secondary: oklch(0.97 0 0);
   --tertiary: #ec4899;
-  --quaternary: #3a4ad1;
+  --quaternary: #B6F06E;
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
   --color-tertiary: var(--tertiary);
